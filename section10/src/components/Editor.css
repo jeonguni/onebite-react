@@ -1,0 +1,26 @@
+.editor {
+  display: flex;
+  gap: 10px;
+}
+
+.editor input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.editor input:focus {
+  outline: none;
+  border: 1px solid skyblue;
+}
+
+.editor button {
+  cursor: pointer;
+  min-width: 80px;
+  max-width: 80px;
+  background: skyblue;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
